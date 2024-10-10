@@ -1,0 +1,1082 @@
+[33mcommit e0e7ca1bac75001690c7617555131483f86f57b8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: sallyluong-msft <145652236+sallyluong-msft@users.noreply.github.com>
+Date:   Thu Oct 10 11:21:53 2024 +0000
+
+    Refactor secrets template for ContosoSuitesDashboard
+
+[33mcommit de9c4335d30b9c6451314d8afa85041a6bddfa57[m
+Author: sallyluong-msft <145652236+sallyluong-msft@users.noreply.github.com>
+Date:   Thu Oct 10 11:16:12 2024 +0000
+
+    Refactor GitHub Pages workflow and secrets template
+    
+    - Removed the Jekyll GitHub Pages workflow as it is no longer needed.
+    - Updated the secrets template for the ContosoSuitesDashboard to include the correct Azure OpenAI and Azure Search endpoints and keys.
+    - Modified the create_chat_completion function in the 1_Chat_with_Data.py file to include Azure Search as a data source.
+    - Updated the API and Dashboard deployment workflows to use the correct Docker image tags and registry names.
+
+[33mcommit 2702bee80bd7f44b4829a38629ceff5e49a682f3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Fri Sep 27 15:02:04 2024 -0600
+
+    Adding tip about re-enabling key-based auth for Cosmos DB
+
+[33mcommit 481f65a0ddcd972cd7aabac99e7cf883b6456598[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Fri Sep 27 14:56:04 2024 -0600
+
+    Adding a fix for policies disabling key based auth to bicep
+
+[33mcommit 00d478a1aa6497eac840dfa6985a8bfda5512179[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 26 14:12:34 2024 -0600
+
+    Changing APIM resource name to avoid errors when unique id starts with a number
+
+[33mcommit 843c04be0e348eeb5a780c9b4fbe415c2b0c6181[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 26 14:12:03 2024 -0600
+
+    Adding more virtual env folder names
+
+[33mcommit a09f4a16d83297d2c9d54d9d225597cc8c4ee385[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Fri Sep 20 10:27:41 2024 -0600
+
+    Updating lab slides and E6 learning objectives
+
+[33mcommit f1be28d73c071ee353161df18e73ece74dc8d7fc[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Fri Sep 20 08:05:28 2024 -0600
+
+    Adding load balancing learning resources
+
+[33mcommit 8c042863bc3d3d19314f7bfd236972d1934bec0f[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 17:57:19 2024 -0600
+
+    Adding note to also delete the second resource group from bonus task in E06
+
+[33mcommit b5cbd8bbe22f26c8c46159b4dae9152bbfae696b[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 17:54:02 2024 -0600
+
+    Moving task 3 into task 2 as an optional bonus activity
+
+[33mcommit d5b9f30231f0ecc763ea6d84e85d280ef740009b[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 15:52:31 2024 -0600
+
+    Grammar and spelling fixes
+
+[33mcommit ce7438ae3b77c601c407eaef531fb34696fe97f0[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 15:49:43 2024 -0600
+
+    Spelling and grammar fixes
+
+[33mcommit 53efac63eaa65d725c4b94d42ada06c098a579d9[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 15:29:09 2024 -0600
+
+    Grammar and spelling fixes
+
+[33mcommit 34d83c9929fc24c3b327419d2ba254d59f0f098a[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 14:54:15 2024 -0600
+
+    Removing semantic caching task reference
+
+[33mcommit b2076cbdf5a0de3dfb2210a035e3ded4f0496816[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 14:53:48 2024 -0600
+
+    Exercise 7
+
+[33mcommit 7a9debca19aac2e1f35740e3b4c046b8e8ddca62[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 14:10:06 2024 -0600
+
+    Merging APIM into main bicep file
+
+[33mcommit a04e195aad7be6bc524d5c2681aac922f4544386[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 13:32:07 2024 -0600
+
+    Updating estimated completion time
+
+[33mcommit 25bcc0452c8745cb0ca470c5700f36a0e0c1816e[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 13:22:46 2024 -0600
+
+    Adding exercise 7 to perform resource deletion and cleanup
+
+[33mcommit fe55a44d3924e8f8728741fbefe4a6af6ba57d01[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 13:22:11 2024 -0600
+
+    Stubbing out 0603 as load balancing task
+
+[33mcommit 9eb60a28cf1ed43561c7f2f9f5bf55a6b9e15fb7[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 13:21:47 2024 -0600
+
+    Replacing 0602 with integration task
+
+[33mcommit 4f7593eabc51f6fe108c815a2ca34a99931571a6[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 13:20:41 2024 -0600
+
+    Minor updates to 0601
+
+[33mcommit 043e35e6af72e03280482a95e27a06ebeb1c5771[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 13:19:17 2024 -0600
+
+    Fixing the referenced streamlit page name
+
+[33mcommit a02f1444b3b4ee2aad61413f35a6c05bc7bcb29b[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 09:16:14 2024 -0600
+
+    Updating instructions to used pinned version of Semantic Kernel
+
+[33mcommit aa80763dc696eb73507c64ca3ab30cf6188d7b6d[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Sep 19 08:54:21 2024 -0600
+
+    Removing Improve SDK compatibility option from API
+
+[33mcommit 7ab916cbfc4301796dd7e583f4f58e3c7e3750a4[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Wed Sep 18 14:41:56 2024 -0600
+
+    Updating estimated completion times
+
+[33mcommit fe901c57f986321be4590eca3fe104b375953779[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Wed Sep 18 14:41:28 2024 -0600
+
+    Adding additions user secrets for Cosmos DB database and container names
+
+[33mcommit a6eb94c5c2990a51664c5d9a86218b0c10199983[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Wed Sep 18 14:40:02 2024 -0600
+
+    Upgrading OpenAI library version to work with SK 1.20.0
+
+[33mcommit 73592308979820f02a4fd4ba98d0ad5e09819fb0[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Wed Sep 18 14:39:17 2024 -0600
+
+    Pinning the semantic kernel version
+
+[33mcommit 414124e6458e7ad29738a96cf3b55bc5ddb4e2f5[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Wed Sep 18 12:43:32 2024 -0600
+
+    Adding E6 T2
+
+[33mcommit ac410851cc3cd9946de0834f1ad54bde0501cfd9[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Wed Sep 18 10:54:21 2024 -0600
+
+    Fixing indentation formatting
+
+[33mcommit 9588ab7e7abd448ec78c2f819db11948a8442ac2[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 17 19:21:19 2024 -0600
+
+    Adding E6 T2
+
+[33mcommit d95ec03962da6b6057becdad6c3cec63cadfa205[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 17 19:19:32 2024 -0600
+
+    Fixing services list
+
+[33mcommit 65c9d32ec750546df5e4ea46bb229de2beebf11c[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 16 21:26:54 2024 -0600
+
+    Adding E6 T1
+
+[33mcommit ea3c3b9cd0cc47eadee53f294dd23bdc1175131a[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 16 15:45:56 2024 -0600
+
+    Minor bicep updates
+
+[33mcommit 408c52221f18f0972456f6a2094857a5cf7ef3d1[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 16 14:37:57 2024 -0600
+
+    Adding exercise 6
+
+[33mcommit dcbaedfecd8d86c288abc7bc2d0bcc911e95324c[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 16 14:37:26 2024 -0600
+
+    Adding second bicep file for APIM and Redis Enterprise
+
+[33mcommit 231c8654418a373901561214d896c1388b032931[m
+Merge: 0f1ae5d b3d5f3e
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 16 13:34:34 2024 -0600
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit b3d5f3e2671a10ed4efb6d9896e4ab2020943749[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 16 15:23:53 2024 -0400
+
+    Create 0603-delete-codespace.png
+
+[33mcommit 5d7f7c7b1d21aeef419b96e150b9b8f67dddbbcb[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 16 15:18:00 2024 -0400
+
+    Add architectural notes prior to exercises
+
+[33mcommit 0f1ae5d73116677add92b57ef8c76294551c1a82[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 16 12:34:10 2024 -0600
+
+    Updating list of resources created with Bicep
+
+[33mcommit 355b8779ed845bb1271c7ca1b3324beabb13b89a[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 16 12:33:45 2024 -0600
+
+    Fixing nav_order for task 01-02
+
+[33mcommit cf655f68f19b2937282dd4fffad6e251692483ef[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 16 13:29:51 2024 -0400
+
+    Remove obsolete class
+
+[33mcommit 14806d06974e1e3fc5d1b89468efee40fbe0fd38[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 12 22:14:16 2024 -0400
+
+    E4 and E5 updates
+
+[33mcommit f4c83f753ec4f0950778ad360f23ec7e5223fc64[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 12 21:22:03 2024 -0400
+
+    Update E3T3
+
+[33mcommit 36c793425dc85f23800b7656df5735afa472c642[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 12 21:00:15 2024 -0400
+
+    Update E3T2
+
+[33mcommit 453c91a5d702d0c43b71ca3434fbff62e48bc72d[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 12 20:36:31 2024 -0400
+
+    Update E3T1 and E2T2
+
+[33mcommit 253cbf057c1a35c50769c8c9104bc9519f7f4ced[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 12 20:01:55 2024 -0400
+
+    Add note on App Service
+
+[33mcommit 84801341161354b58bedef3c3801bc4715a3577d[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 12 19:54:42 2024 -0400
+
+    Update E2T1 for Codespaces
+
+[33mcommit e54a9bcbd1e78d4240122474743a7d8fa51a27fd[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 12 19:31:55 2024 -0400
+
+    Quick changes (2) for E1T3
+
+[33mcommit 334fb00f081e58686a2db4125d71161beb32c248[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 12 19:14:07 2024 -0400
+
+    Quick changes for E1T3
+
+[33mcommit b761a946e0f5b017ce2399d92ccde7e0c5c2d847[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 12 19:05:46 2024 -0400
+
+    Updates to E1T2 for Codespaces
+
+[33mcommit 9f965759c4a8d3f1f995cd5d9994807600658286[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 12 18:41:31 2024 -0400
+
+    Update E1T1 to support Codespaces
+
+[33mcommit 428cc155edd234b2d71a1c8d1add65fff06d33ef[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Sep 11 20:54:04 2024 -0400
+
+    Add dev container script
+
+[33mcommit c2fe00cd637aa1e032acc57c2a97c2c78546fd0e[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Sep 11 19:18:47 2024 -0400
+
+    Updates based on alpha run
+
+[33mcommit 2882549dc22083094482b5150223ebf03971c4b5[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Sep 7 23:57:28 2024 -0600
+
+    Fixing config parameter names
+
+[33mcommit 1ce004da3edf0f6c45dd1b7decaf7e6ff79085e6[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 5 09:18:31 2024 -0400
+
+    Update slides
+
+[33mcommit bf6de3a3d3c907f617bc1bb4d87cea445d4018c2[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 5 08:39:20 2024 -0400
+
+    Fix typos
+
+[33mcommit dbcc7a1c799ab74edd4362309a7e0c93d085ad83[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Thu Sep 5 06:52:29 2024 -0400
+
+    Fix typo
+
+[33mcommit 320eedc01872cbbfc30f92ae8a50160b57bc8f69[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Sep 4 20:44:15 2024 -0400
+
+    Typos
+
+[33mcommit 4b1bf32639c85ddebfd095a2d7e59654bc818f19[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Sep 4 20:26:51 2024 -0400
+
+    Fixing indentation of code blocks
+
+[33mcommit bf4b340008ceab2067251e6db61f6210a0180e39[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Wed Sep 4 17:32:05 2024 -0600
+
+    Exercise 5 task 2 updates
+
+[33mcommit b21ddf56a98f4c9b0368fc025570569b312c8778[m
+Merge: c179ef8 6628542
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Wed Sep 4 17:19:28 2024 -0600
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit c179ef8226d1b92ad6df46638ccaebb556f0a55a[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Wed Sep 4 17:19:09 2024 -0600
+
+    Exercise 5 files
+
+[33mcommit 66285425b3e6d56ff741d599bfe0e33d4c2815f9[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Sep 4 15:05:40 2024 -0400
+
+    Trying to fix weird copy-paste issue
+
+[33mcommit 6901fc40a7038b08821ca1635c24f2d08db85713[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Sep 4 14:11:37 2024 -0400
+
+    Bugfixes for 0501
+
+[33mcommit 14770bf92e4a4de6fc911c966c44c0b80700304e[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Sep 4 09:42:12 2024 -0400
+
+    Remove extraneous whitespace
+
+[33mcommit f5796d38e3889e2d3e42844306011939fb51a2d4[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Sep 4 08:22:01 2024 -0400
+
+    Fix indentation for code blocks
+
+[33mcommit dea2b7e7866089a89ee1acc91af01cfb3fef9a4b[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Sep 4 08:03:21 2024 -0400
+
+    Updates for exercise 3
+
+[33mcommit f3e9e7f1528ebd4099b37f79d3ecd5abcefe81cf[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Sep 4 02:36:24 2024 -0400
+
+    Rename sidebar for E3
+
+[33mcommit 97b3509e54b445d6e0380c82c838943f67acf362[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 22:45:09 2024 -0600
+
+    Adding step for updating using statements
+
+[33mcommit 214df66bc5f52927170b43005946dcaf91075ba8[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 22:40:25 2024 -0600
+
+    Exercise 5 task 1
+
+[33mcommit 308acb1e530d7802004e1efada1f79e2dfbb1328[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 22:39:18 2024 -0600
+
+    Removing unused endpoint from API
+
+[33mcommit 4bb78b761cd7fd3efeed22fdbea7b2bbe71a86ea[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 20:44:26 2024 -0600
+
+    Deleting unused service and endpoint
+
+[33mcommit 9334380dc7a3c50e2a8bfb991dddaf60230211a7[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 20:42:14 2024 -0600
+
+    Updates to exercise 3 search screen and functionality
+
+[33mcommit 3d2bf52c0b2cec056e7eafe3ec4545e46fb3d50b[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 19:35:37 2024 -0600
+
+    Changing variable name
+
+[33mcommit 5fad50439aa8c81243173f91c57b941581a09ae1[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 19:30:11 2024 -0600
+
+    Fixing method signature in interface
+
+[33mcommit a09f9982e676c8eb91fcb788a99ac2a78bb361ba[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 19:27:13 2024 -0600
+
+    Updating return to to simplify swap with Semantic Kernel service
+
+[33mcommit 92003ff73f9efd1e91526883d6ca52b3b26f2d3f[m
+Merge: faec7a6 25205a1
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 18:36:45 2024 -0600
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit faec7a621ca438fb8fc7e9a18c6b792af791cbd2[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 18:35:44 2024 -0600
+
+    Fixing deployment name environment variable for embedding deployment
+
+[33mcommit 25205a144b7600ffed110538d6229518c9c0e2c5[m
+Merge: 725821d aab288c
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 20:34:50 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit 725821dbe4609bd489616f90b6f46bfd0a11fe09[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 20:34:48 2024 -0400
+
+    Fixes to E2T2 code
+
+[33mcommit aab288c888523d225be02a1b802e4320c381d68c[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 18:30:42 2024 -0600
+
+    Updating environment variable name for embedding deployment
+
+[33mcommit 15843197a4a872b8dd156b0a0261cdcf304c76ce[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 18:14:39 2024 -0600
+
+    Fixes to E1T1 around deployed resources and bicep
+
+[33mcommit e1d867b389355f083f6f1b4c12184aad51ad353f[m
+Merge: 623fcca bd204aa
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 19:46:41 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit 623fccae614f11e29322c0074e380add400a4052[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 19:46:38 2024 -0400
+
+    Updates based on E2T2 runthrough.
+
+[33mcommit bd204aa3ee813cea8ac396d5bb47d7148bd9136d[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 16:38:04 2024 -0600
+
+    Updating .gitignore file
+
+[33mcommit 6bbaa3d5a2029a140432a55848bd68f070ad4568[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 16:35:56 2024 -0600
+
+    Updating gitingore
+
+[33mcommit 73d86c91d661f5755d51aea9ce7ca2b18560735d[m
+Merge: 3ebb892 8a43208
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 16:24:55 2024 -0600
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit 3ebb892e27989f953a4a3e9d4ba85b0a9ed113fe[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 16:24:41 2024 -0600
+
+    Stubbing out exercise 5
+
+[33mcommit 8a43208a7e64d5e393aa2892e326b92d9d180f38[m
+Merge: a9b6238 62139c0
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 18:20:54 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit a9b6238c4261a5fcb33029ca7dcd5fd800f8186f[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 18:20:53 2024 -0400
+
+    Update code indentation
+
+[33mcommit 62139c0fa83aac3a5301130ca168324461f30fdb[m
+Merge: 83d37db 1a5406c
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 16:20:17 2024 -0600
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit 83d37dbfd69cf112b7a0f511a7c5505a263da1be[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 16:20:02 2024 -0600
+
+    Updating gitignore file
+
+[33mcommit 1a5406c212995e7b276dd27c88ecda9a035c5d1b[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 18:12:29 2024 -0400
+
+    Fix connection string references
+
+[33mcommit aeaaa00ec3eb55c10b3b612046dd5359b8b29e0d[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 16:46:30 2024 -0400
+
+    Add note on delay
+
+[33mcommit 1e59c7d714250619436fc87eb4ed24b2681a57eb[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 16:41:32 2024 -0400
+
+    Update versions of Actions
+
+[33mcommit b68521e1cf3b940034587e6418ff57429b2cf920[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 16:19:11 2024 -0400
+
+    Remove superfluous file
+
+[33mcommit f9ae4d34f8a1ad0a6c41b0a1f9d5c95283b5519e[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 16:18:34 2024 -0400
+
+    Remove superfluous file
+
+[33mcommit 3caf1969b763369a2780eb6bb4bb2cd63e4d8f73[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 16:17:48 2024 -0400
+
+    Add pip install notes.
+
+[33mcommit 59d1db7310d976fdb4301e93f20a5b8fb6fff16c[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 16:14:36 2024 -0400
+
+    Add note on default domain
+
+[33mcommit 63aa7edd367f90f7840ec9e8654c96c05c039439[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 15:56:41 2024 -0400
+
+    Remove second deploy script reference
+
+[33mcommit 32fb3e7e6023a26b2f0b7dea818596b43c4070b6[m
+Merge: b77edd0 98ff035
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 15:55:17 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit b77edd09c354d39a9ff2a098e184a1f797980660[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Sep 3 15:55:16 2024 -0400
+
+    Remove extra number on deployment assets
+
+[33mcommit 98ff035ac44d987b4b01b9bc4bfa2dd3df294017[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 13:40:07 2024 -0600
+
+    Adding queries to submit to key tasks for e3t3
+
+[33mcommit 43bf602ebbe01775ea8b9fd524df2a5d2b98c6c8[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 13:26:02 2024 -0600
+
+    Removing exercise 6 folder
+
+[33mcommit 409068d990da6dca353cc98c6ca69a7fdc87ef2d[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 13:00:43 2024 -0600
+
+    Adding exercise 3 task 3
+
+[33mcommit 47df3ffc68eb93e38f54423c0c97a19a920d6d5d[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 12:59:53 2024 -0600
+
+    Updating description to mention hotel name and details will be vectorized by the function app.
+
+[33mcommit 2ad4f5ca9735e9233408bd0f745bd57f04909309[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 12:59:27 2024 -0600
+
+    Updating estimated time for exercise completion
+
+[33mcommit 34292f98940b7cee116093b0a4821506292c5257[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Sep 3 12:58:58 2024 -0600
+
+    Updating function to include hotel name in vectorized text
+
+[33mcommit 450610052430fa46185704d856e4c150066f6825[m
+Merge: cf71bdc 2a02278
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 20:57:27 2024 -0400
+
+    Merge pull request #4 from microsoft/dependabot/bundler/rexml-3.3.6
+    
+    Bump rexml from 3.2.5 to 3.3.6
+
+[33mcommit cf71bdcb5e4639c3dea2570f85707655eaaf7ef2[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 19:09:24 2024 -0400
+
+    Add more details on secrets handling
+
+[33mcommit de74937c86512ae5e0d49b3941fd827d10fb0d48[m
+Merge: 8a12aa5 2f4c259
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 18:56:53 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit 8a12aa59ef38d2d5d35d0955f46d54401a744aae[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 18:56:50 2024 -0400
+
+    Complete vector search and E4T3
+
+[33mcommit 2f4c25959fb06b4708b28593e652eae682468c45[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 2 16:21:24 2024 -0600
+
+    Stubbing out vector search solution
+
+[33mcommit 40263e684811ff16f7a3375c23c1e53769a02463[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 2 16:20:48 2024 -0600
+
+    Adding vector search functionality
+
+[33mcommit 52c5c95f7d2dd313e07bc49c4ce1d62f1d919219[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 2 16:19:35 2024 -0600
+
+    Adding more settings to appsettings file
+
+[33mcommit 9bf86fea6ed3e0c38df190faf8eb2201e954da80[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 15:46:05 2024 -0400
+
+    Fix secrets template
+
+[33mcommit 759af54da8a554a4c0b62a2c8195ce61a85b2a8f[m
+Merge: f65cace aa78602
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 15:42:07 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit f65cace65e46ed3bde7edfe94b08f5341caf2396[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 15:42:03 2024 -0400
+
+    Code for E4T3 and renumber vector search
+
+[33mcommit aa786021fab5df2e9f8ad76ca15faebca307db74[m
+Merge: a37dc41 46f6c30
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 2 13:21:47 2024 -0600
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit a37dc414610def121a802d42d27d134809a48e32[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 2 13:21:36 2024 -0600
+
+    Adding appsettings file for web api
+
+[33mcommit 46f6c30e2819d96d03addd28f25b9aac34d45c06[m
+Merge: 9bb58a2 a9c9d41
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 15:20:15 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit 9bb58a2b7a5c19abada95bec12e8ab4d4c6e0c9e[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 15:20:11 2024 -0400
+
+    Add Cosmos DB secrets to template
+
+[33mcommit a9c9d41b1e612fd65da444fee9ee103284154c72[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Mon Sep 2 13:19:00 2024 -0600
+
+    Reordering exercise 2 to 3 and adding vectorization service and API endpoint
+
+[33mcommit 0ba09641c08af1ad884e6d40c1ad6f4c1ff3b886[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 15:13:55 2024 -0400
+
+    Make Exercise 03 into Exercise 02
+
+[33mcommit 9da0db19e241a4c79cacb1d322705e01c60892ac[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 15:08:51 2024 -0400
+
+    Working on E4T3
+
+[33mcommit bc60819b096202419ad2bd9111d696968a8fe0d1[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 12:01:45 2024 -0400
+
+    Remove en-us references.
+
+[33mcommit fbfc1c8492eaac218089c3b237293ebc72f207d2[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 11:57:12 2024 -0400
+
+    Remove TODO
+
+[33mcommit 9aa6c11c9244616d52c83eb93868f401131fadc6[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 11:54:19 2024 -0400
+
+    Add instructions for exercise 3 tasks 1 & 2
+
+[33mcommit 448253e125da47fb4138c6cd72c84e6597bc2f3a[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 10:47:32 2024 -0400
+
+    Add instructions and solution for 3.1
+
+[33mcommit cf81b42710127c3985491299f02b5b1b369326a1[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Sep 2 09:31:11 2024 -0400
+
+    Add outline for 3.2
+
+[33mcommit 8d485be1f676bf4992f582061b81f50637f5eceb[m
+Merge: 0171d1e 07d5176
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sun Sep 1 18:32:59 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit 0171d1eb7820d3497a29d3ad392e1282409707ff[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sun Sep 1 18:32:56 2024 -0400
+
+    Add resources for exercise 3
+
+[33mcommit 07d5176dc81873d4a1c13171df821adbfa8fe3b4[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sun Sep 1 12:45:22 2024 -0600
+
+    Removing task 3 of exercise 2
+
+[33mcommit 72cd8ad7d247b148b258488c9047f08cf10afceb[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sun Sep 1 12:39:05 2024 -0600
+
+    Exercise 2 updates
+
+[33mcommit a8c65527aa348022ffb55bc56ffe417df7f2a3cf[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sun Sep 1 13:18:44 2024 -0400
+
+    Update required packages
+
+[33mcommit c7bf3cf803e653e2c4d415a26e5f2690af3d437c[m
+Merge: ff212ca 2a8a005
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sun Sep 1 12:02:33 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit ff212ca5f0decde41bf795773c9e8e414ba9a205[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sun Sep 1 12:02:31 2024 -0400
+
+    Add Azure SQL DB and load script
+
+[33mcommit 2a8a005a92585c0173e4d18c4cc8b71e9aadda41[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Aug 31 20:03:13 2024 -0600
+
+    Updating steps for E02T02
+
+[33mcommit f04d91bc016d21c08d79e2f1f95fbf137560212c[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Aug 31 20:02:54 2024 -0600
+
+    Fixes to the vectorization function
+
+[33mcommit 0f5d6b3bf4d6f00b28c8170e9d10bd1e6123ea2d[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Aug 31 19:28:30 2024 -0600
+
+    Adding comment to E02T01
+
+[33mcommit 579dad428d32339a638a13f393734922bdd0eca5[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Aug 31 19:09:32 2024 -0600
+
+    Updating vector path name
+
+[33mcommit 7043f1ea38f01185d84a517c95c559536f5e2370[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Aug 31 19:08:47 2024 -0600
+
+    Adding more VS code extensions
+
+[33mcommit 9f227b181b1ee0bbc936ff03fd3487bf35e484ac[m
+Merge: 899c666 94dcbb9
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sat Aug 31 19:03:29 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit 899c6665d12eb6ba1846ae68fed7930ef81a59b4[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sat Aug 31 19:03:24 2024 -0400
+
+    Exercise 4.2
+
+[33mcommit 94dcbb903b3bcbd878ac769f5958be3925e8eab1[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Aug 31 16:34:20 2024 -0600
+
+    Updating E2T1
+
+[33mcommit e3aa8aecee3e1a4dd494dbeb04fcbdefe538d0f2[m
+Merge: 6c494f6 3dd051f
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Aug 31 16:33:41 2024 -0600
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit 6c494f6dd215e18712a87d109a2fe6032602d2e1[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Aug 31 16:33:28 2024 -0600
+
+    Fixing errors in function app
+
+[33mcommit 3dd051f1200ae945a14291d797f21914f8aaa2b2[m
+Merge: 5b9bbda 04b7273
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sat Aug 31 18:15:51 2024 -0400
+
+    Merge branch 'main' of https://github.com/microsoft/TechExcel-Integrating-Azure-PaaS-and-AI-Services-for-AI-Design-Wins
+
+[33mcommit 5b9bbdab5ffbc2b426fdabe9d2bf75dd8afc1169[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sat Aug 31 18:15:49 2024 -0400
+
+    Update exercise 4 task 1
+
+[33mcommit 04b727371cd6b711b9ed04fc7d8b66e4c29bccb7[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Aug 31 16:02:42 2024 -0600
+
+    Adding function app for document vectorization
+
+[33mcommit ce5bbc05a40eefe8b2bc1a3a345b71ec06cda93a[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Sat Aug 31 15:59:16 2024 -0600
+
+    Updating exercise 2 task 1
+
+[33mcommit 06fbe944b1c73c57b8d07de8008ef1c96f80570b[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sat Aug 31 17:41:27 2024 -0400
+
+    Update exercise 4 code
+
+[33mcommit 4d013df9759d8eb5e4175990c80fc4327cc3cfcb[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Fri Aug 30 11:51:23 2024 -0600
+
+    Minor updates
+
+[33mcommit bd519a4617e3d4511b9a8deec6fa408d75aeecdd[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Fri Aug 30 11:20:32 2024 -0600
+
+    Fixing AI services deployments
+
+[33mcommit 7cb2558b03353a5b961e9ef7e23c129af955a76c[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Aug 29 15:59:58 2024 -0600
+
+    Fixing errors and typos
+
+[33mcommit 5c9be3ded4fbf211485f4fc4ca6668906338c912[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Aug 29 15:59:45 2024 -0600
+
+    Updaing exercise intro
+
+[33mcommit 45ec0d88f935a090eec03903fae679269af4e687[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Aug 29 15:43:30 2024 -0600
+
+    Renaming exercise 2
+
+[33mcommit ae694581c4a0e54ef1a50a0979968806f99911a8[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Aug 29 15:41:34 2024 -0600
+
+    Updating exercise 2 task 1 for vector search in cosmos db
+
+[33mcommit 258577661eff621e066a815b6637b1ac5d765610[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Thu Aug 29 15:40:43 2024 -0600
+
+    Updating data files
+
+[33mcommit 1ea83e82e9dd03652e093c6ae6e82132fd9a62dc[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Wed Aug 28 10:28:15 2024 -0600
+
+    Fixing data error and file extension for user review data
+
+[33mcommit d56efc1f67557db6cbae35ecfbb7c56ff9834f25[m
+Author: kylebunting <kyle.bunting@gmail.com>
+Date:   Tue Aug 27 13:31:09 2024 -0600
+
+    Adding database to Cosmos DB deployment
+
+[33mcommit 43c43ddcc2f9f23a78ae0b1c29e0ec85dcc0a532[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Aug 27 04:58:38 2024 -0400
+
+    Add instructions for 0103
+
+[33mcommit 69b77c029be95b3d565cf044785885bca9b8c0d9[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Aug 27 04:14:32 2024 -0400
+
+    Add instructions for 0102
+
+[33mcommit df986612944fd8418a6f75e65070a5bf8230a146[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Mon Aug 26 12:36:55 2024 -0400
+
+    Update exercise 1
+
+[33mcommit 70740b5284f65c816173aaace5a5e6dc1ef7447f[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sun Aug 25 20:59:35 2024 -0400
+
+    First draft of Actions workflows and Dockerfiles
+
+[33mcommit feaabf29206b09866670051e5fbd63df3fcdf8a2[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sun Aug 25 13:31:49 2024 -0400
+
+    Add updates to exercise 1
+
+[33mcommit 2ef9746ab553c130de6365fbe52f00cbb8c2e542[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Sat Aug 24 09:12:06 2024 -0400
+
+    Update dashboard and parts of exercise 01
+
+[33mcommit 2a022782ada3d8c2b787c7e301dd08f5b97c6537[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Aug 22 20:15:30 2024 +0000
+
+    Bump rexml from 3.2.5 to 3.3.6
+    
+    Bumps [rexml](https://github.com/ruby/rexml) from 3.2.5 to 3.3.6.
+    - [Release notes](https://github.com/ruby/rexml/releases)
+    - [Changelog](https://github.com/ruby/rexml/blob/master/NEWS.md)
+    - [Commits](https://github.com/ruby/rexml/compare/v3.2.5...v3.3.6)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: rexml
+      dependency-type: indirect
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 42d2c9ec9b336238a5f56972b780635b866be504[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Wed Aug 21 05:22:39 2024 -0400
+
+    Add FAQ and change embedding deployment
+
+[33mcommit 97720a87579ba1309e700c0b8550bcd42723ce22[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Aug 20 11:09:17 2024 -0400
+
+    Add changes for exercise 1
+
+[33mcommit 950d8a76bf529ff56b728b9859b50ab898f8af7a[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Aug 20 08:56:11 2024 -0400
+
+    Add AI services to Bicep script
+
+[33mcommit 813aa83fc9f0196da3aa7445fbe502962c1ed5bd[m
+Author: Kevin Feasel <feaselkl@gmail.com>
+Date:   Tue Aug 20 08:24:49 2024 -0400
+
+    Initial checkin
+
+[33mcommit 3a10ba17a8e379e341b227641b6c4f4262916550[m
+Author: Hope Rosen <36749525+hopero929@users.noreply.github.com>
+Date:   Fri Aug 2 11:30:04 2024 -0700
+
+    Initial commit

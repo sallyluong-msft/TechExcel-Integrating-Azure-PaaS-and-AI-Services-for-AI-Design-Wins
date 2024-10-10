@@ -1,7 +1,7 @@
 name: Dashboard Deployment
 
 env:
-  registryName: {your_registry_name}.azurecr.io
+  registryName: bby73nigl763acosureg.azurecr.io
   repositoryName: techexcel/csdash
   dockerFolderPath: ./src/ContosoSuitesDashboard
   tag: ${{github.run_number}}
